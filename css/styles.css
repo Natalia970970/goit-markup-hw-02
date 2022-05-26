@@ -93,19 +93,21 @@ body {
 }
 
 .modal-btn {
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #000000;
+    color: #ffffff;
+    background: var(--accent-color);
     cursor: pointer;
 }
 
 .modal-btn:hover,
 .modal-btn:focus{
-    background: var(--accent-color);
+    background: #188CE8;
     color: #FFFFFF;
 }
 
@@ -235,13 +237,16 @@ body {
 
 /* ================= portfolio ================= */
 .filter-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;    
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    background-color: #F5F4FA;
     cursor: pointer;
+    border: none;
 }
 .filter-btn:hover,
 .filter-btn:focus {
