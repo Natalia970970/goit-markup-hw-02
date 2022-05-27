@@ -46,7 +46,8 @@ body {
 }
     
 .page-header .menu-link:hover,
-.page-header .menu-link:focus {
+.page-header .menu-link:focus,
+.page-header .menu-link.current {
     color: var(--accent-color);
 }
     
